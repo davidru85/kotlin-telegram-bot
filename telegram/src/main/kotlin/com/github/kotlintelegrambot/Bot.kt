@@ -75,7 +75,7 @@ class Bot private constructor(
         lateinit var token: String
         var timeout: Int = 30
         var apiUrl: String = "https://api.telegram.org/"
-        var BaseTokenApi: String = "5333186872:AAHc5niB02q0Bz5PEZWEJoHyULHS2iP3dvQ"
+        var baseTokenApi: String = "5333186872:AAHc5niB02q0Bz5PEZWEJoHyULHS2iP3dvQ"
         var logLevel: LogLevel = LogLevel.None
         var proxy: Proxy = Proxy.NO_PROXY
         internal var dispatcherConfiguration: Dispatcher.() -> Unit = { }

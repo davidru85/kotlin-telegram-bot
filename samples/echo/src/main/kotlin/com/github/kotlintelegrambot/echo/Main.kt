@@ -9,8 +9,6 @@ fun main() {
 
     val bot = bot {
 
-        token = "YOUR_API_KEY"
-
         dispatch {
 
             text {

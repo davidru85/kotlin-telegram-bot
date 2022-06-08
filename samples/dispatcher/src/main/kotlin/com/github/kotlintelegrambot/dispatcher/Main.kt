@@ -24,7 +24,6 @@ fun main() {
 
     val bot = bot {
 
-        token = "YOUR_API_KEY"
         timeout = 30
         logLevel = LogLevel.Network.Body
 
